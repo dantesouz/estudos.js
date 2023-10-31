@@ -65,13 +65,17 @@
 
             if (imc >= 18.5) {
                 resultClassific.innerHTML = "Abaixo do Peso";
+                resultClassific.style.color = "#d00c0d";
             } else if (imc >= 24.9) {
                 resultClassific.innerHTML = "Peso Normal";
+                resultClassific.style.color = "#91e514";
             } else if (imc >= 29.9) {
                 resultClassific.innerHTML = "Sobrepeso";
+                resultClassific.style.color = "#fff000";
             } else if (imc >= 29.99) {
             } else {
                 resultClassific = "Obesidade";
+                resultClassific.style.color = "#d00c0d";
             }
         }
 
